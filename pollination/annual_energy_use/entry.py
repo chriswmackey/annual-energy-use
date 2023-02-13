@@ -43,7 +43,7 @@ class AnnualEnergyUseEntryPoint(GroupedDAG):
 
     measures = Inputs.folder(
         description='A folder containing an OSW JSON be used as the base for the '
-        'execution of the OpenStuduo CLI. This folder must also contain all of the '
+        'execution of the OpenStudio CLI. This folder must also contain all of the '
         'measures that are referenced within the OSW.', path='measures', optional=True,
         alias=measures_input
     )
